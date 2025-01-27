@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath dronehackon dronehackon.wsgi --log-file -
